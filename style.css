@@ -1,0 +1,137 @@
+
+
+
+.container{
+    display: flex;
+    align-items: flex-end;
+    font-family: Brush Script MT;
+    font-size: 40px;
+    color: white;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#box1{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 720px;
+    background-image: url(https://source.unsplash.com/gYl-UtwNg_I/1500x1500);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#box2{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 720px;
+    background-image: url(https://source.unsplash.com/rFKUFzjPYiQ/1500x1500);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#box3{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 720px;
+    background-image: url(https://images.unsplash.com/photo-1465188162913-8fb5709d6d57?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&cs=tinysrgb&w=1500&h=1500&fit=crop&s=967e8a713a4e395260793fc8c802901d);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#box4{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 720px;
+    background-image: url(https://source.unsplash.com/ITjiVXcwVng/1500x1500);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#box5{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 720px;
+    background-image: url(https://source.unsplash.com/3MNzGlQM7qs/1500x1500);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#navbar{
+    margin: 0px;
+    padding: 0px;
+    height: 60px;
+    background-color: #272727;
+    display: flex;
+}
+
+#bar{
+    position: absolute;
+    width: 150px;
+    height: 23px;
+    border-radius: 11.5px;
+    background-color: #5f5f5f;
+    margin-top: 20px;
+    margin-left:  55px;
+}
+
+#icon{
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 500px){
+    .container{
+        display: flex;
+        height: 720px;
+        flex-direction: column;
+    }
+    #box1{
+        display: flex;
+        width: 500px;
+    }
+    #box2{
+        flex: 1;
+        display: flex;
+        width: 500px;
+    }
+    #box3{
+        flex: 1;
+        display: flex;
+        width: 500px;
+    }
+    #box4{
+        flex: 1;
+        display: flex;
+        width: 500px;
+    }
+    #box5{
+        flex: 1;
+        display: flex;
+        width: 500px;
+    }
+
+}   
